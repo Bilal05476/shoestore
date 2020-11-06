@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bungee+Inline&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+.nav-link {
+  color: darkgoldenrod;
+}
+.logo {
+  width: 10%;
+  height: 10%;
+}
+.navbar-brand {
+  font-family: "Fredoka One", cursive;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.if_hover:hover {
+  font-weight: bold;
+}
+
+.nav-link span {
+  background-color: crimson;
+  color: white;
+  font-size: 13px;
+  margin-left: 4px;
+  top: -12px;
+  right: -7px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
